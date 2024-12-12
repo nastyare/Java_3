@@ -39,10 +39,6 @@ public class PrimesGenerator {
         return primes.iterator();
     }
 
-    public List<Integer> getPrimes() {
-        return new ArrayList<>(primes);
-    }
-
     public List<Integer> getPrimesInReverse() {
         List<Integer> reversedPrimes = new ArrayList<>(primes);
         java.util.Collections.reverse(reversedPrimes);
